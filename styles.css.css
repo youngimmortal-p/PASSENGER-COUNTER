@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-image: url(./images/80\ Pics\ Featuring\ People\,\ Animals\,\ And\ Places\ Around\ The\ Globe\,\ Captured\ By\ Daniel\ Kordan.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+main h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+}
+#count{
+    font-size: 2rem;
+    padding: 10px 20px;
+    width: 200px;
+    background-color: green;
+    border: 1px solid green;
+   transition-duration: 0.3s;
+   overflow: hidden;
+   cursor: pointer;
+   border-radius: 5px;
+}
+#save{
+    font-size: 2rem;
+    padding: 10px 20px;
+    width: 200px;
+    margin: 1rem;
+    background-color: red;
+    border: 1px solid red;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
